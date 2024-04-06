@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.grade--section{
+  height:100vh;
+  background-color: #F87272;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+justify-items: center;
+  
+}
+
+h1{
+  padding:20px;
+  text-decoration: underline;
+}
+.interactions{
+  display: flex;
+  gap:40px;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+
+
+  
+}
+
+.input-div{
+  background-color: whitesmoke;
+  width: 500px;
+  height: 500px;
+  /* padding: 100px; */
+  background-color: rgb(237, 232, 215);
+  align-items: center;
+  justify-content: center;
+  overflow-y: scroll ;
+  overflow-x:scroll;
+}
+
+h2{
+  padding:10px;
+}
+
+.Row--inputs{
+
+  justify-content: center;
+  padding:5px;
+}
+
+.addRow{
+  width: 80%;
+  height:50px;
+  margin:10px auto;
+}
+
+.addRow:hover{
+  cursor: pointer;
+}
+
+
+.Row--inputs{
+  display: flex;
+  flex-direction: column;
+}
+
+.gradeInput, .weightInput{
+  width: 70px;
+}
+
+input{
+  padding:2px;
+  margin:5px;
+}
+
+.addtionalGrade{
+  height:30px;
+  width:50px;
+}
+
+.boldText{
+  font-weight: bold;
+}
+.input-div--extra{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.calculate{
+  height:40px;
+  width:100px;
+  background-color:darkgrey;
+  color:chocolate;
+  font-weight: bold;
+}
+.calculate:hover{
+  cursor: pointer;
+  background-color: bisque;
+}
+
+
+.outputs{
+  background-color: rgb(222, 197, 197);
+  width:450px;
+  height:350px;
+  padding:20px;
+
+}
+
+
+
+.outputs h3{
+  padding:5px;
+}
+
+
+.outputs{
+  text-align: center;
+  justify-content: center;
+}
+
+.outputs--element{
+  margin:20px;
+  word-spacing: 1px;
+}
