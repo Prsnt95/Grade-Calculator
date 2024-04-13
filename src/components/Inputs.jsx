@@ -1,13 +1,17 @@
 import React from "react";
-import Row from "./Row";
+import Table from "./Table";
 
-const Inputs = () => {
-  const [rowNum, setRowNum] = React.useState([<Row />]);
+const Inputs = ({ updateGrades }) => {
+  const [tableData, setTableData] = React.useState();
 
   return (
     <div className="input-div">
       <h2>Grade type Percentage</h2>
-      {rowNum}
+      <Table
+        updateGrades={updateGrades}
+        tableData={tableData}
+        setTableData={setTableData}
+      />
       <div className="input-div--extra">
         <p>
           {" "}
